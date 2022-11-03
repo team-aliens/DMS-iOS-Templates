@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainTemplateFiles</key>
+	<string>___VARIABLE_productName___API.swift</string>
+	<key>AllowedTypes</key>
+	<dict>
+		<key>Item 0</key>
+		<string>public.swift-source</string>
+	</dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>NotPersisted</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>API Domain name:</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>Create a API</string>
+	<key>Description</key>
+	<string>Create a API</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+</dict>
+</plist>
