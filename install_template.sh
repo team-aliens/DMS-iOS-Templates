@@ -1,3 +1,7 @@
 #!/bin/bash
-cd "$(dirname "$0")"
+TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/File Templates'
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+echo "Copying..."
+mkdir -p "$TEMPLATE_DIR"
 cp -r Source "$HOME/Library/Developer/Xcode/Templates/File Templates"
+echo "🎉 Complete to copy template! try to 'cmd + n' in your Xcode !"
